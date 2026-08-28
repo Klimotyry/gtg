@@ -1,0 +1,20 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Локальная база и пользовательские данные — НЕ загружать в GitHub
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+*.log
+logs/
